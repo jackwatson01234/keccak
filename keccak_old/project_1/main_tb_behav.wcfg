@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10999992358fs"></ZoomStartTime>
+      <ZoomEndTime time="11000001529fs"></ZoomEndTime>
+      <Cursor1Time time="11000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="294"></NameColumnWidth>
+      <ValueColumnWidth column_width="325"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="69" />
+   <wvobject fp_name="/main_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/gn_match" type="logic">
+      <obj_property name="ElementShortName">gn_match</obj_property>
+      <obj_property name="ObjectShortName">gn_match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/ss/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/ss/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/ss/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[607:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[607:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/ss/nonce" type="array">
+      <obj_property name="ElementShortName">nonce[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nonce[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/ss/target1" type="array">
+      <obj_property name="ElementShortName">target1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">target1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/ss/in" type="array">
+      <obj_property name="ElementShortName">in[671:0]</obj_property>
+      <obj_property name="ObjectShortName">in[671:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/ss/tmp" type="array">
+      <obj_property name="ElementShortName">tmp[671:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp[671:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/ss/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/in" type="array">
+      <obj_property name="ElementShortName">in[607:0]</obj_property>
+      <obj_property name="ObjectShortName">in[607:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/nonce" type="array">
+      <obj_property name="ElementShortName">nonce[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nonce[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/target1" type="array">
+      <obj_property name="ElementShortName">target1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">target1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/gn_match" type="logic">
+      <obj_property name="ElementShortName">gn_match</obj_property>
+      <obj_property name="ObjectShortName">gn_match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/padder_out" type="array">
+      <obj_property name="ElementShortName">padder_out[1087:0]</obj_property>
+      <obj_property name="ObjectShortName">padder_out[1087:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/f_out" type="array">
+      <obj_property name="ElementShortName">f_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">f_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/hash" type="array">
+      <obj_property name="ElementShortName">hash[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hash[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/hash_out" type="array">
+      <obj_property name="ElementShortName">hash_out[255:0]</obj_property>
+      <obj_property name="ObjectShortName">hash_out[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round00_out" type="array">
+      <obj_property name="ElementShortName">round00_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round00_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round01_in" type="array">
+      <obj_property name="ElementShortName">round01_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round01_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round01_out" type="array">
+      <obj_property name="ElementShortName">round01_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round01_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round02_in" type="array">
+      <obj_property name="ElementShortName">round02_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round02_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round02_out" type="array">
+      <obj_property name="ElementShortName">round02_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round02_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round03_in" type="array">
+      <obj_property name="ElementShortName">round03_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round03_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round03_out" type="array">
+      <obj_property name="ElementShortName">round03_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round03_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round04_in" type="array">
+      <obj_property name="ElementShortName">round04_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round04_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round04_out" type="array">
+      <obj_property name="ElementShortName">round04_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round04_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round05_in" type="array">
+      <obj_property name="ElementShortName">round05_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round05_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round05_out" type="array">
+      <obj_property name="ElementShortName">round05_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round05_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round06_in" type="array">
+      <obj_property name="ElementShortName">round06_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round06_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round06_out" type="array">
+      <obj_property name="ElementShortName">round06_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round06_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round07_in" type="array">
+      <obj_property name="ElementShortName">round07_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round07_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round07_out" type="array">
+      <obj_property name="ElementShortName">round07_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round07_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round08_in" type="array">
+      <obj_property name="ElementShortName">round08_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round08_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round08_out" type="array">
+      <obj_property name="ElementShortName">round08_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round08_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round09_in" type="array">
+      <obj_property name="ElementShortName">round09_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round09_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round09_out" type="array">
+      <obj_property name="ElementShortName">round09_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round09_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round10_in" type="array">
+      <obj_property name="ElementShortName">round10_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round10_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round10_out" type="array">
+      <obj_property name="ElementShortName">round10_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round10_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round11_in" type="array">
+      <obj_property name="ElementShortName">round11_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round11_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round11_out" type="array">
+      <obj_property name="ElementShortName">round11_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round11_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round12_in" type="array">
+      <obj_property name="ElementShortName">round12_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round12_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round12_out" type="array">
+      <obj_property name="ElementShortName">round12_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round12_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round13_in" type="array">
+      <obj_property name="ElementShortName">round13_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round13_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round13_out" type="array">
+      <obj_property name="ElementShortName">round13_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round13_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round14_in" type="array">
+      <obj_property name="ElementShortName">round14_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round14_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round14_out" type="array">
+      <obj_property name="ElementShortName">round14_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round14_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round15_in" type="array">
+      <obj_property name="ElementShortName">round15_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round15_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round15_out" type="array">
+      <obj_property name="ElementShortName">round15_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round15_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round16_in" type="array">
+      <obj_property name="ElementShortName">round16_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round16_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round16_out" type="array">
+      <obj_property name="ElementShortName">round16_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round16_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round17_in" type="array">
+      <obj_property name="ElementShortName">round17_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round17_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round17_out" type="array">
+      <obj_property name="ElementShortName">round17_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round17_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round18_in" type="array">
+      <obj_property name="ElementShortName">round18_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round18_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round18_out" type="array">
+      <obj_property name="ElementShortName">round18_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round18_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round19_in" type="array">
+      <obj_property name="ElementShortName">round19_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round19_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round19_out" type="array">
+      <obj_property name="ElementShortName">round19_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round19_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round20_in" type="array">
+      <obj_property name="ElementShortName">round20_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round20_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round20_out" type="array">
+      <obj_property name="ElementShortName">round20_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round20_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round21_in" type="array">
+      <obj_property name="ElementShortName">round21_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round21_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round21_out" type="array">
+      <obj_property name="ElementShortName">round21_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round21_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round22_in" type="array">
+      <obj_property name="ElementShortName">round22_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round22_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round22_out" type="array">
+      <obj_property name="ElementShortName">round22_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round22_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round23_in" type="array">
+      <obj_property name="ElementShortName">round23_in[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round23_in[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/round23_out" type="array">
+      <obj_property name="ElementShortName">round23_out[1599:0]</obj_property>
+      <obj_property name="ObjectShortName">round23_out[1599:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/gn_match_d" type="logic">
+      <obj_property name="ElementShortName">gn_match_d</obj_property>
+      <obj_property name="ObjectShortName">gn_match_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_tb/mm/kk/tmp_out" type="logic">
+      <obj_property name="ElementShortName">tmp_out</obj_property>
+      <obj_property name="ObjectShortName">tmp_out</obj_property>
+   </wvobject>
+</wave_config>
